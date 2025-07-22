@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!-- 🌐 HTML5 doctype declaration -->
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Liquid Morphing Login</title>
+  <!-- 🎨 External stylesheet for all visual magic -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- ============================================= -->
+  <!--           🌊 ANIMATED BACKGROUND             -->
+  <!-- ============================================= -->
+  <!-- 🎡 Spinning rainbow gradient that fills entire viewport -->
+  <div class="liquid-background"></div>
+  <!-- 🖤 Dark overlay with blur effect to tone down the background -->
+  <div class="liquid-overlay"></div>
+
+  <!-- ============================================= -->
+  <!--              🧭 NAVIGATION BAR               -->
+  <!-- ============================================= -->
+  <div class="nav-container">
+    <nav class="liquid-nav">
+      <!-- 🏷️ Brand logo with gradient text effect -->
+      <div class="logo">MAJAHFILMS</div>
+      <!-- 📋 Navigation menu items -->
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Services</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ============================================= -->
+  <!--           ✨ FLOATING DECORATIONS            -->
+  <!-- ============================================= -->
+  <!-- 🎈 Three floating orbs that drift around the screen -->
+  <div class="floating-element"></div>
+  <div class="floating-element"></div>
+  <div class="floating-element"></div>
+
+  <!-- ============================================= -->
+  <!--              🔐 LOGIN FORM                   -->
+  <!-- ============================================= -->
+  <div class="main-container">
+    <div class="login-container">
+      <!-- 👋 Welcome message section -->
+      <div class="login-header">
+        <h1 class="login-title">Welcome Back</h1>
+        <p class="login-subtitle">Enter your credentials to access your account</p>
+      </div>
+
+      <!-- 📝 The actual login form -->
+      <form class="login-form" onsubmit="handleLogin(event)">
+        <!-- 📧 Email input field -->
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-input"
+            placeholder="Email Address"
+            required
+            id="email"
+          >
+        </div>
+
+        <!-- 🔒 Password input field -->
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-input"
+            placeholder="Password"
+            required
+            id="password"
+          >
+        </div>
+
+        <!-- 🚀 Submit button with gradient animation -->
+        <button type="submit" class="login-button">
+          Sign In
+        </button>
+
+        <!-- 🔗 Helper links for forgot password & signup -->
+        <div class="form-links">
+          <a href="#" class="form-link">Forgot Password</a>
+          <a href="#" class="form-link">Create Account</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ⚡ JavaScript file for interactive behavior -->
+  <script src="script.js"></script>
+</body>
+</html>
