@@ -31,4 +31,4 @@ A **stunning futuristic login page** featuring liquid animations, glassmorphism 
 
 
 
-<img width="1319" height="870" alt="Image" src="https://github.com/user-attachments/assets/969c9145-7bf8-444e-994c-8e2cd0769e2f" />
+
