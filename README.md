@@ -27,7 +27,7 @@ A **stunning futuristic login page** featuring liquid animations, glassmorphism 
 
 
 
-
+![Image](https://github.com/user-attachments/assets/8ae3ea45-3959-4f19-bc38-104ef50a1fbd)
 
 
 
